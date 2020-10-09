@@ -63,13 +63,6 @@
   - [Post-processing the FIXM Schemas](home.md)
 
 
-- **FF-ICE/R1 Services Description Example – Details and Other Considerations**
-  - [Planning Service](home.md)
-  - [Filing Service](home.md)
-  - [Technical assumptions](home.md)
-  - [Message classification and technology selection](home.md)
-
-
 - **Use of Schematron**
 
 
@@ -80,9 +73,6 @@
   - [Evaluation Results](home.md)
   - [Future Testing](home.md)
   - [Platform Support Matrix](home.md)
-
-
-- **Appendix F. Developing a Basic Web Service Using FIXM (Server and Client)**
 
 
 - **ATS Message to FIXM Mapping**
