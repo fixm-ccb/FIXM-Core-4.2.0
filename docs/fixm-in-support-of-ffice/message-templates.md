@@ -64,7 +64,7 @@ below. The message template resulting from the translation of this table is disp
 
 ### Explanations
 
-![Explanations](.//media/image32.png "Explanations")
+![Explanations](.//media/image32.png  ':size=50%')
 
 **XSD complex type restrictions** are used to pare down the Flight and
 the FF-ICE Message data structures to just those fields that are
@@ -74,9 +74,9 @@ stricter optionality and content patterns where appropriate.
 The XSD complex type restrictions are implemented by creating a new
 class that generalizes the class to be restricted and then applying the
 `<<XSDrestriction>>` stereotype to the generalization
-connector, as shown in brown on the picture opposite.
+connector, as shown in brown on the picture above.
 
-![Explanations](.//media/image33.png "Explanations")
+![Explanations](.//media/image33.png  ':size=50%')
 
 XML elements being irrelevant in the context of the message template are
 eliminated by removing them from the model, as shown in red on the
@@ -117,4 +117,4 @@ sub-classes. XSD complex type restrictions are therefore linked together to form
 
 ## References
 
-[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM%204.1.0/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”
+[6]: [ATMRPP/3-WP/766](https://ost.eurocontrol.int/sites/FIXM/Shared%20Documents/ICAO%20ATMRPP%20inputs%20for%20FIXM/ATMRPP3_WP_766_FF-ICE1%20Implementation%20Guidance_All.pdf): “Manual on FF-ICE Implementation Guidance”

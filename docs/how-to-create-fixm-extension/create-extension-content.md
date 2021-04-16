@@ -21,7 +21,7 @@ used to contain these new fields.
 
 This example will start with creating a subcomponent for the “position”
 field. Many of the steps outlined here are very similar to the steps
-listed in the [Create an Extension Root Package](#_Create_an_Extension)
+listed in the [Create an Extension Root Package](how-to-create-fixm-extension/create-an-extension-root-package)
 section above. The main difference is that Extension subcomponents
 contain diagrams and Extension classes.
 
@@ -50,11 +50,10 @@ contain diagrams and Extension classes.
     ![Image](.//media/image209.png)
 
 6. Next, apply the XSDschema stereotype to your subcomponent as
-    described in the [Apply Schema
-    Stereotype](#_Applying_Schema_Stereotype) section above.
+    described in the [Apply Schema Stereotype](how-to-create-fixm-extension/create-an-extension-root-package?id=apply-schema-stereotype) section above.
 
 7. After the stereotype is applied, continue the schema setup as
-    described in [Set Up Schema Properties](#set-up-schema-properties)
+    described in [Set Up Schema Properties](how-to-create-fixm-extension/create-an-extension-root-package?id=set-up-schema-properties)
     above. The following property values should be used for this
     subcomponent in this example:
 
@@ -62,12 +61,9 @@ contain diagrams and Extension classes.
 
     b.  *Prefix* set to: “xmp”.
 
-    c.  *Schema File* set to:
-        `.\schemas\extensions\example\ExampleEnRoute.xsd`.
+    c.  *Schema File* set to: `.\schemas\extensions\example\ExampleEnRoute.xsd`.
 
-    ?> NOTE: For this and other subcomponents, you should be able to
-    skip the step of setting up additional namespaces for imported
-    packages. Sparx EA should automatically generate these as needed.
+    ?> NOTE: For this and other subcomponents, you should be able to skip the step of setting up additional namespaces for imported packages. Sparx EA should automatically generate these as needed.
 
     When finished, your XSD schema Properties dialogue box should look
     something like below.
@@ -77,15 +73,14 @@ contain diagrams and Extension classes.
 8. Click OK to save these settings.
 
 9. Reopen the subcomponent and finish the schema setup as described in
-    [Add Schema Description and Tags](#add-schema-description-and-tags).
+    [Add Schema Description and Tags](how-to-create-fixm-extension/create-an-extension-root-package?id=add-schema-description-and-tags).
     As described in that section, the following tags should be added:
 
     a.  An attributeFormDefault tag set to: “unqualified”.
 
     b.  An elementFormDefault tag to: “qualified”.
 
-    c.  A version tag set to an appropriate version for your Extension
-        (“1.0.0” for this example).
+    c.  A version tag set to an appropriate version for your Extension (`1.0.0` for this example).
 
 ## Create an Extension Class
 
